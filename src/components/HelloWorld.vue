@@ -8,7 +8,7 @@ defineProps({
 
 const { t } = useI18n({
   inheritLocale: true,
-  useScope: 'local',
+  useScope: 'global', // 'local' or 'global'
 });
 
 console.log(t);
